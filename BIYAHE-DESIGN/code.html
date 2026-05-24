@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Biyahe | One tap, ready ang biyahe mo!</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600;700;800&amp;family=Inter:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "on-surface": "#191c1e",
+                      "background": "#f8f9fc",
+                      "tertiary-container": "#6851a5",
+                      "tertiary": "#50388b",
+                      "surface-dim": "#d9dadd",
+                      "surface-tint": "#005ac3",
+                      "surface-container-low": "#f2f3f6",
+                      "on-error": "#ffffff",
+                      "inverse-on-surface": "#eff1f4",
+                      "surface-bright": "#f8f9fc",
+                      "on-primary": "#ffffff",
+                      "surface-container": "#edeef1",
+                      "inverse-primary": "#aec6ff",
+                      "secondary": "#006a68",
+                      "on-primary-fixed-variant": "#004395",
+                      "secondary-fixed": "#7df5f3",
+                      "tertiary-fixed-dim": "#cfbcff",
+                      "primary-container": "#005bc5",
+                      "surface-variant": "#e1e2e5",
+                      "on-background": "#191c1e",
+                      "surface-container-highest": "#e1e2e5",
+                      "error": "#ba1a1a",
+                      "on-tertiary-fixed": "#22005d",
+                      "on-secondary-fixed-variant": "#00504f",
+                      "on-secondary-fixed": "#00201f",
+                      "primary": "#004497",
+                      "primary-fixed": "#d8e2ff",
+                      "on-secondary": "#ffffff",
+                      "on-secondary-container": "#006e6d",
+                      "on-primary-fixed": "#001a42",
+                      "on-error-container": "#93000a",
+                      "inverse-surface": "#2e3133",
+                      "on-tertiary": "#ffffff",
+                      "surface-container-high": "#e7e8eb",
+                      "surface-container-lowest": "#ffffff",
+                      "surface": "#f8f9fc",
+                      "on-tertiary-fixed-variant": "#4f378a",
+                      "outline": "#727784",
+                      "on-surface-variant": "#424753",
+                      "on-tertiary-container": "#e1d4ff",
+                      "secondary-container": "#79f2f0",
+                      "outline-variant": "#c2c6d5",
+                      "primary-fixed-dim": "#aec6ff",
+                      "error-container": "#ffdad6",
+                      "tertiary-fixed": "#e9ddff",
+                      "on-primary-container": "#ccdaff",
+                      "secondary-fixed-dim": "#5dd9d6"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "margin-mobile": "16px",
+                      "max-width": "1280px",
+                      "margin-desktop": "64px",
+                      "gutter-mobile": "16px",
+                      "gutter-desktop": "24px",
+                      "base": "8px"
+              },
+              "fontFamily": {
+                      "headline-lg-mobile": [
+                              "Hanken Grotesk"
+                      ],
+                      "body-md": [
+                              "Inter"
+                      ],
+                      "title-lg": [
+                              "Hanken Grotesk"
+                      ],
+                      "label-lg": [
+                              "Inter"
+                      ],
+                      "body-lg": [
+                              "Inter"
+                      ],
+                      "label-sm": [
+                              "Inter"
+                      ],
+                      "headline-md": [
+                              "Hanken Grotesk"
+                      ],
+                      "headline-lg": [
+                              "Hanken Grotesk"
+                      ],
+                      "display-lg": [
+                              "Hanken Grotesk"
+                      ]
+              },
+              "fontSize": {
+                      "headline-lg-mobile": [
+                              "28px",
+                              {
+                                      "lineHeight": "36px",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "body-md": [
+                              "14px",
+                              {
+                                      "lineHeight": "20px",
+                                      "letterSpacing": "0.25px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "title-lg": [
+                              "22px",
+                              {
+                                      "lineHeight": "28px",
+                                      "fontWeight": "500"
+                              }
+                      ],
+                      "label-lg": [
+                              "14px",
+                              {
+                                      "lineHeight": "20px",
+                                      "letterSpacing": "0.1px",
+                                      "fontWeight": "500"
+                              }
+                      ],
+                      "body-lg": [
+                              "16px",
+                              {
+                                      "lineHeight": "24px",
+                                      "letterSpacing": "0.5px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "label-sm": [
+                              "11px",
+                              {
+                                      "lineHeight": "16px",
+                                      "letterSpacing": "0.5px",
+                                      "fontWeight": "500"
+                              }
+                      ],
+                      "headline-md": [
+                              "28px",
+                              {
+                                      "lineHeight": "36px",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "headline-lg": [
+                              "32px",
+                              {
+                                      "lineHeight": "40px",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "display-lg": [
+                              "57px",
+                              {
+                                      "lineHeight": "64px",
+                                      "letterSpacing": "-0.25px",
+                                      "fontWeight": "700"
+                              }
+                      ]
+              }
+      },
+          },
+        }
+    </script>
+</head>
+<body class="bg-surface text-on-surface antialiased">
+<nav class="fixed top-0 w-full z-50 bg-surface/90 dark:bg-surface-container/90 backdrop-blur-md shadow-sm border-b border-outline-variant/30">
+<div class="flex justify-between items-center px-margin-mobile md:px-margin-desktop py-4 max-w-max-width mx-auto">
+<div class="flex items-center gap-8">
+<a class="text-headline-md font-headline-md font-bold text-primary dark:text-primary-fixed" href="#">Biyahe</a>
+<div class="hidden md:flex items-center gap-6">
+<a class="text-primary dark:text-primary-fixed font-bold border-b-2 border-primary dark:border-primary-fixed pb-1 text-label-lg font-label-lg" href="#">Our Services</a>
+<a class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors text-label-lg font-label-lg" href="#">How it Works</a>
+<a class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors text-label-lg font-label-lg" href="#">Join Us</a>
+<a class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors text-label-lg font-label-lg" href="#">Blog</a>
+<a class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors text-label-lg font-label-lg" href="#">Contact Us</a>
+</div>
+</div>
+<div class="hidden md:flex items-center gap-4">
+<button class="text-secondary font-label-lg text-label-lg border border-secondary px-6 py-2 rounded-full hover:bg-secondary/10 transition-colors scale-95 active:scale-90 duration-200">Host a Vehicle</button>
+<button class="bg-primary-container text-on-primary font-label-lg text-label-lg px-6 py-2 rounded-full hover:opacity-90 transition-opacity shadow-sm scale-95 active:scale-90 duration-200">Rent a Ride</button>
+</div>
+<button class="md:hidden text-primary">
+<span class="material-symbols-outlined text-[32px]">menu</span>
+</button>
+</div>
+</nav>
+<main class="pt-[80px]">
+<section class="relative w-full max-w-max-width mx-auto px-margin-mobile md:px-margin-desktop py-12 md:py-20 flex flex-col-reverse md:grid md:grid-cols-2 gap-8 items-center">
+<div class="flex flex-col gap-6 w-full z-10">
+<h1 class="text-headline-lg-mobile font-headline-lg-mobile md:text-display-lg md:font-display-lg text-on-surface">
+                    One tap, ready ang <span class="text-primary-container">biyahe mo!</span>
+</h1>
+<p class="text-body-lg font-body-lg text-on-surface-variant max-w-lg">
+                    Premium rentals, assured quality, and seamless journeys. Experience the easiest way to hit the road with confidence.
+                </p>
+<div class="flex flex-col sm:flex-row gap-4 mt-4">
+<button class="bg-primary-container text-on-primary flex justify-center items-center gap-2 px-8 py-4 rounded-full text-title-lg font-title-lg shadow-md hover:shadow-lg transition-all active:scale-95">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">directions_car</span>
+                        I want to Rent
+                    </button>
+<button class="border-2 border-secondary text-secondary flex justify-center items-center gap-2 px-8 py-4 rounded-full text-title-lg font-title-lg hover:bg-secondary/5 transition-all active:scale-95">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">car_rental</span>
+                        I want to Host
+                    </button>
+</div>
+</div>
+<div class="w-full relative h-[400px] md:h-[600px] rounded-2xl overflow-hidden shadow-sm bg-surface-container-low">
+<img alt="Energetic vehicle rental layout" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/ADBb0uhArvzf2tcrikD7g0F7GjPbC-qWOOiXVTkU-tl4f7y8-MrzmXLwEMBy19PoYy4KuFrzjhtTGNIDc1Ugk0E5ebkX3hcaX-yvfq1WCTlmn6mQh3CTM4ROX4izHN7TJ8hhUSB5mno5pW00p_41JNvxgfgOJ8s0F8drK9JcaNBdWbmPJQ4sn6TANBEN1zcVhHdSKryxOwkgC9HVfPDApTzJAefOm94bNbkdL7s8to__Z0Ak5cEsH1PFqf95mzj1"/>
+</div>
+</section>
+<section class="w-full bg-surface-container-low py-16 md:py-24">
+<div class="max-w-max-width mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+<div class="md:col-span-7 h-[300px] md:h-[500px] rounded-2xl overflow-hidden shadow-sm">
+<img alt="Quality assured vehicle" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/ADBb0uhJVT3DETflOm1h-GFtiumY5gwKs_Kxj4tR_eG4vvygWfYAfvoVupx7PiTraczG7CaqpermoeDJXq5IVrUUJiWzk66HSehwp0MMzfYFYAFqWRjXuI9OMMs17XN8d-MEZrhLi1x2x6wPdwV1bvvBVetXiP0WOnGwevlU-Ut12JsFKDkx2hRgDd8NfwTTVDBUuObsGvBXJnsXim77dGuG5yY39eskhKDMGs2ehEhaDgraI7EWwTuR3AEC8Lkk"/>
+</div>
+<div class="md:col-span-5 flex flex-col gap-6 md:-ml-16 z-10 bg-surface/80 backdrop-blur-xl p-8 md:p-12 rounded-2xl shadow-md border border-outline-variant/30">
+<div class="w-12 h-12 bg-primary-container/10 rounded-full flex items-center justify-center text-primary-container mb-2">
+<span class="material-symbols-outlined text-[28px]" style="font-variation-settings: 'FILL' 1;">verified</span>
+</div>
+<h2 class="text-headline-md font-headline-md text-on-surface">Quality Assured Rentals</h2>
+<p class="text-body-lg font-body-lg text-on-surface-variant">
+<strong class="text-on-surface">Bawat sasakyan, pasado sa standards.</strong> Every vehicle on Biyahe undergoes a rigorous inspection and safety check, ensuring your trip is always safe and reliable. We don't compromise on your peace of mind.
+                    </p>
+<a class="inline-flex items-center gap-2 text-primary-container font-label-lg text-label-lg hover:underline mt-4" href="#">
+                        Learn about our safety standards <span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</section>
+<section class="w-full max-w-max-width mx-auto px-margin-mobile md:px-margin-desktop py-16 md:py-24">
+<div class="text-center mb-12">
+<h2 class="text-headline-lg-mobile font-headline-lg-mobile md:text-headline-lg md:font-headline-lg text-on-surface">Ang Aming Pangako</h2>
+<p class="text-body-lg font-body-lg text-on-surface-variant mt-4 max-w-2xl mx-auto">Hindi biro maging commuter o driver. Alamin ang aming tinataya sa bawat pasahero at partner.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[250px]">
+<div class="md:col-span-2 md:row-span-1 bg-gradient-to-br from-surface to-surface-container-high rounded-2xl p-8 shadow-sm border border-outline-variant/50 flex flex-col justify-end relative overflow-hidden group hover:shadow-md transition-shadow">
+<div class="absolute top-8 right-8 text-secondary/20 group-hover:text-secondary/40 transition-colors">
+<span class="material-symbols-outlined text-[100px]" style="font-variation-settings: 'FILL' 1;">receipt_long</span>
+</div>
+<div class="z-10 w-full md:w-2/3">
+<h3 class="text-title-lg font-title-lg text-on-surface mb-2">Transparent Pricing</h3>
+<p class="text-body-md font-body-md text-on-surface-variant">Walang hidden fees, sigurado ang budget mo. What you see on the app is exactly what you pay.</p>
+</div>
+</div>
+<div class="md:col-span-1 md:row-span-2 bg-primary-container text-on-primary rounded-2xl p-8 shadow-sm flex flex-col relative overflow-hidden group hover:shadow-md transition-shadow">
+<div class="flex-grow">
+<span class="material-symbols-outlined text-[48px] mb-6" style="font-variation-settings: 'FILL' 1;">support_agent</span>
+<h3 class="text-title-lg font-title-lg mb-4">24/7 Support</h3>
+<p class="text-body-md font-body-md text-primary-fixed-dim">Laging handang tumulong, kahit anong oras. Our dedicated team is just a tap away for any assistance during your journey.</p>
+</div>
+<div class="absolute -bottom-10 -right-10 text-on-primary/10">
+<span class="material-symbols-outlined text-[180px]" style="font-variation-settings: 'FILL' 1;">headset_mic</span>
+</div>
+</div>
+<div class="md:col-span-1 md:row-span-1 bg-surface-container-highest rounded-2xl p-8 shadow-sm border border-outline-variant/30 flex flex-col justify-between hover:shadow-md transition-shadow">
+<span class="material-symbols-outlined text-[32px] text-primary" style="font-variation-settings: 'FILL' 1;">map</span>
+<div>
+<h3 class="text-title-lg font-title-lg text-on-surface mb-2">Seamless Map Booking</h3>
+<p class="text-body-md font-body-md text-on-surface-variant">Piliin ang pinakamalapit na ride sa mapa in real-time.</p>
+</div>
+</div>
+<div class="md:col-span-1 md:row-span-1 bg-surface rounded-2xl p-8 shadow-sm border border-outline-variant/30 flex flex-col justify-between hover:shadow-md transition-shadow">
+<span class="material-symbols-outlined text-[32px] text-secondary" style="font-variation-settings: 'FILL' 1;">verified_user</span>
+<div>
+<h3 class="text-title-lg font-title-lg text-on-surface mb-2">Verified Hosts</h3>
+<p class="text-body-md font-body-md text-on-surface-variant">Komportable at ligtas na biyahe kasama ang aming mga trusted partners.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="w-full bg-tertiary-container py-12 md:py-16">
+<div class="max-w-max-width mx-auto px-margin-mobile md:px-margin-desktop flex flex-col md:flex-row items-center justify-between gap-8">
+<div class="flex items-center gap-6">
+<div class="w-16 h-16 rounded-full bg-on-tertiary text-tertiary-container flex items-center justify-center flex-shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[36px]" style="font-variation-settings: 'FILL' 1;">price_check</span>
+</div>
+<div>
+<h2 class="text-title-lg font-title-lg text-on-tertiary mb-2">Best Rental Rate Guarantee</h2>
+<p class="text-body-lg font-body-lg text-tertiary-fixed-dim">Nakakita ng mas mura? We will match the price and give you a free rental voucher.</p>
+</div>
+</div>
+<button class="bg-on-tertiary text-tertiary font-label-lg text-label-lg px-8 py-3 rounded-full hover:bg-surface-dim transition-colors shadow-sm whitespace-nowrap">
+                    Claim Voucher
+                </button>
+</div>
+</section>
+</main>
+<footer class="w-full py-12 bg-surface-container-lowest dark:bg-on-surface border-t border-outline-variant">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter-desktop px-margin-desktop max-w-max-width mx-auto">
+<div class="flex flex-col gap-4">
+<span class="text-title-lg font-title-lg font-black text-primary dark:text-primary-fixed">Biyahe</span>
+<p class="text-body-md font-body-md text-on-surface-variant">© 2024 Biyahe Philippines. All Rights Reserved.</p>
+</div>
+<div class="flex flex-col gap-3">
+<h4 class="text-label-lg font-label-lg text-on-surface font-bold mb-2">Company</h4>
+<a class="text-body-md font-body-md text-on-surface-variant dark:text-surface-variant hover:text-primary transition-colors hover:opacity-80" href="#">Safety</a>
+<a class="text-body-md font-body-md text-on-surface-variant dark:text-surface-variant hover:text-primary transition-colors hover:opacity-80" href="#">Terms &amp; Conditions</a>
+<a class="text-body-md font-body-md text-on-surface-variant dark:text-surface-variant hover:text-primary transition-colors hover:opacity-80" href="#">Privacy Policy</a>
+</div>
+<div class="flex flex-col gap-3">
+<h4 class="text-label-lg font-label-lg text-on-surface font-bold mb-2">Support</h4>
+<a class="text-body-md font-body-md text-on-surface-variant dark:text-surface-variant hover:text-primary transition-colors hover:opacity-80" href="#">Passenger Appeal Form</a>
+<a class="text-body-md font-body-md text-on-surface-variant dark:text-surface-variant hover:text-primary transition-colors hover:opacity-80" href="#">Trust &amp; Insurance</a>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="text-label-lg font-label-lg text-on-surface font-bold mb-2">Download the App</h4>
+<div class="flex gap-4">
+<button class="bg-surface-container-highest p-3 rounded-lg hover:bg-surface-dim transition-colors">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">android</span>
+</button>
+<button class="bg-surface-container-highest p-3 rounded-lg hover:bg-surface-dim transition-colors">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">ios</span>
+</button>
+</div>
+</div>
+</div>
+</footer>
+</body></html>
